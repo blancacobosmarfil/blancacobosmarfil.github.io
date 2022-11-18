@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href= "./styles/stylepagpr.css">
+    <link rel="shortcut icon" href="./images/logoweb.png">
+    <title>Películas y series</title>
+  </head>
+  <script>
+    $(document).ready(function(){
+      $("article").hide()
+      $("#peliculas").click(function(){
+        $("article").hide()
+        $("#peliculas").show();
+      });
+      $("#series").click(function(){
+        $("article").hide()
+        $("#series").show();
+      });
+      $("#documentales").click(function(){
+        $("article").hide()
+        $("#documentales").show();
+      });
+    });
+    </script>
+  <body>
+      <header>
+        <section>
+          <nav>
+        <ul>
+          <li><a href="./paginaprincipal.html" class="active"><img src="./images/logoweb.png" alt="Página principal" height="14px"></a></li>
+          <li><a href="#peliculas">Películas</a></li>
+          <li><a href="#series">Series</a></li>
+          <li><a href="#documentales">Documentales</a></li>
+          <li style="float:right"><a href="./contacto/contacto.html">Contacto</a></li>
+        </ul>
+          </nav>
+          
+          <article id="peliculas">
+            <iframe style="width:100%; border:none" src="./peliculas/peliculas.html"></iframe>
+          </article>
+          <article id="series">
+            <iframe style="width:100%; border:none" src="./series/series.html"></iframe>
+          </article>
+          <article id="documentales">
+            <iframe style="width:100%; border:none" src="./documentales/documentales.html"></iframe>
+          </article>
+        </section>
+        <!-- Modo Azul
+        <div>
+          <button onclick="blueMode()">Modo azul</button>
+        </div>
+        <script>
+          function blueMode() {
+            var element = document.body;
+            element.classList.toggle("blue-mode");
+          }
+        </script>
+        -->
+      </header>
+      <footer>
+        <center>
+          <h5>Lenguaje de marcas I.E.S. Medina Azahara 
+          <br> © Blanca Cobos Marfil
+          || Todos los derechos reservados
+          </br> Córdoba, España. 2022 - 2023</h5>
+          </br>
+        </center>
+      </footer>
+  </body>
+</html>
