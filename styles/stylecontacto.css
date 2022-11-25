@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /*Casilla activa (barra de navegación)*/
@@ -17,8 +17,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /*display: flex;
-    justify-content: center;*/
 }
 
 li {
@@ -38,7 +36,9 @@ li a:hover {
 }
 
 footer {
-    align-items: center;
+    color: white;
+    padding: 0px;
+    bottom: 0px;
 }
 
 /*Estilo Formulario*/
@@ -49,7 +49,7 @@ footer {
 
 /* FORMULARIO =================================== */
 
-.form_wrap{
+.formulario{
     width: 1050px;
     height: 530px;
     margin: 50px auto;
@@ -91,25 +91,25 @@ footer {
 
 }
 
-.info_title,
+.titulo_inf,
 .info_items{
     position: relative;
     z-index: 2;
     color: #fff;
 }
 
-.info_title{
+.titulo_inf{
     margin-bottom: 60px;
 }
 
-.info_title span{
+.titulo_inf span{
     font-size: 100px;
     display: block;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.info_title h2{
+.titulo_inf h2{
     font-size: 35px;
     text-align: center;
 }
@@ -136,29 +136,29 @@ footer {
 
 
 /* Formulario de contacto*/
-form.form_contact{
+form.form_cont{
     width: 62%;
     padding: 30px 40px;
 }
 
-form.form_contact h2{
+form.form_cont h2{
 	font-size: 25px;
 	font-weight: 600;
 	color: #303030;
 	margin-bottom: 30px;
 }
 
-form.form_contact .u_info{
+form.form_cont .u_info{
     display: flex;
     flex-direction: column;
 }
 
-form.form_contact label{
+form.form_cont label{
     font-weight: 600;
 }
 
-form.form_contact input,
-form.form_contact textarea{
+form.form_cont input,
+form.form_cont textarea{
     width: 100%;
     padding: 8px 0px 5px;
     margin-bottom: 20px;
@@ -166,19 +166,19 @@ form.form_contact textarea{
     border: none;
     border-bottom: 2px solid #D1D1D1;
 
-    font-family: 'Open sans';
-	color: #5A5A5A;
+    font-family: 'Open sans' sans-serif;
+	color: #302b2b;
 	font-size: 14px;
 	font-weight: 400;
 }
 
-form.form_contact textarea{
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 90px;
+
+
+form.form_cont input[type="button"]:hover{
+    background: #e71f1f;
 }
 
-form.form_contact input[type="button"]{
+.envmensj a {
     width: 180px;
 	background: #e71f1f;
 	padding: 10px;
@@ -188,12 +188,9 @@ form.form_contact input[type="button"]{
     align-self: flex-end;
 
     color: #fff;
-	font-family: 'Open sans';
 	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
-}
-
-form.form_contact input[type="button"]:hover{
-    background: #e71f1f;
+    text-decoration:none;
+    font-family: 'Open sans', sans-serif;
 }

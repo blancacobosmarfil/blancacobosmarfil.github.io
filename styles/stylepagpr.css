@@ -4,6 +4,10 @@ body {
     color: rgb(255, 255, 255);
 }
 
+footer {
+    text-align: center;
+}
+
 /*Casilla activa (barra de navegación)*/
 
 .active {
@@ -17,8 +21,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    /*display: flex;
-    justify-content: center;*/
 }
 
 li {
@@ -36,9 +38,6 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 /*Botón de encendido o apagado*/
 
-.blue-mode {
-    background-color: rgb(34, 72, 175);
-    color: white;
-}
