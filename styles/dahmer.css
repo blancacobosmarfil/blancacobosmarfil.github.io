@@ -9,11 +9,14 @@ body {
 header {
   flex-wrap: nowrap;
   align-items: center;
-  width: 100%;
 }
 
 footer {
     text-align: center;
+}
+
+#contenido {
+    width: 1000px; margin: 0 auto;
 }
 
 /*Casilla activa (barra de navegación)*/
@@ -22,7 +25,7 @@ footer {
     background-color: #da1919;
 }
 
-/*Barra de navegación (negro)*/
+/*Barra de navegación*/
 ul {
     list-style-type: none;
     margin-right: 10%;
@@ -59,7 +62,7 @@ li a:hover {
     --color-fuente: rgb(255, 255, 255);
     --color-fondo: rgb(72, 38, 224);
 }
-
+/*
 #switch {
     position: relative;
     display: flex;
@@ -120,3 +123,4 @@ li a:hover {
   .slider.round:before {
     border-radius: 50%;
   }
+  */
