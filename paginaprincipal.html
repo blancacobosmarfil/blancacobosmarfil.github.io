@@ -10,8 +10,8 @@
   </head>
   <body>
       <header>
-        <section>
           <nav>
+            <img src="./images/logotipo.png" alt="Logo Series y Peliculas" width="8%" style="float:left">
         <ul>
           <li><a href="./paginaprincipal.html" class="active"><img src="./images/logoweb.png" alt="Página principal" height="14px"></a></li>
           <li><a href="./peliculas/peliculas.html">Películas</a></li>
@@ -19,10 +19,11 @@
           <li><a href="./documentales/documentales.html">Documentales</a></li>
           <li style="float:right"><a href="./contacto/contacto.html">Contacto</a></li>
         </ul>
-        <div>
-          <input id='btn' type="checkbox">
-          <label for="btn" for="btn2" class="cont"></label>
-        </div>
+            <label id="switch" style="float:right">
+              <input type="checkbox">
+              <span class="slider round"></span>
+          </label>
+      </header>
       <footer>
           <h5>Lenguaje de marcas I.E.S. Medina Azahara 
           <br> © Blanca Cobos Marfil
@@ -30,5 +31,6 @@
           </br> Córdoba, España. 2022 - 2023</h5>
           </br>
       </footer>
+      <script src="./scripts/jsmodooscuro.js"></script>
   </body>
 </html>
