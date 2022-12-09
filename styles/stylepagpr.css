@@ -6,14 +6,14 @@ body {
     color:var(--color-fuente) 
 }
 
-header {
-  flex-wrap: nowrap;
-  align-items: center;
-  width: 100%;
-}
-
 footer {
     text-align: center;
+}
+
+.imgenlace {
+  width: 10%;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
 /*Casilla activa (barra de navegación)*/
@@ -62,11 +62,9 @@ li a:hover {
 
 #switch {
     position: relative;
-    display: flex;
-    flex-wrap: nowrap;
+    display: inline-block;
     width: 60px;
     height: 34px;
-
   }
   
   #switch input { 
