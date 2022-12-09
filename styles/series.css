@@ -16,9 +16,10 @@ footer {
 }
 
 .imgenlace {
-    width: 40%;
+    width: 10%;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
   }
 
 .imagen {
@@ -27,6 +28,10 @@ footer {
     float: left;
     margin-right: 4%;
     margin-left: 2%;
+}
+
+.trailers {
+  text-align:center;
 }
 
 /*Casilla activa (barra de navegación)*/

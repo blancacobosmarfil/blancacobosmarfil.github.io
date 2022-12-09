@@ -57,7 +57,7 @@ li a:hover {
 
 [tema="blue"]{
     --color-fuente: rgb(255, 255, 255);
-    --color-fondo: rgb(72, 38, 224);
+    --color-fondo: #0B1D51;
 }
 
 #switch {
