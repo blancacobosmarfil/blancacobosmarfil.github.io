@@ -2,13 +2,10 @@
     <rss version="2.0">
         <channel>
             <title>Películas y series</title>
-            <link>https://blancacobosmarfil.github.io/paginaprincipal.html</link>
+            <link>https://blancacobosmarfil.github.io/</link>
             <description>Canal de películas y series</description>
             <copyright>Blanca Cobos Marfil 1ºASIR Lenguaje de Marcas</copyright>
             <category>peliculas/series</category>
-            <image>
-                <url>https://github.com/blancacobosmarfil/blancacobosmarfil.github.io/blob/main/images/logotipo.png</url>
-            </image>
             <language>es-es</language>
             <item>
                 <title>Avatar</title>
