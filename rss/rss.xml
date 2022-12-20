@@ -4,10 +4,16 @@
             <title>Películas y series</title>
             <link>https://blancacobosmarfil.github.io/</link>
             <description>Canal de películas y series</description>
+            <copyright>Blanca Cobos Marfil 1ºASIR Lenguaje de Marcas</copyright>
+            <category>peliculas/series</category>
+            <language>es-es</language>
             <item>
                 <title>Avatar</title>
                 <link>https://blancacobosmarfil.github.io/peliculas/avatar.html</link>
                 <description>En este artículo encontrará información sobre la película Avatar</description>
+                <author>Blanca Cobos Marfil 1º ASIR LMGSI</author>
+                <category>pelicula/avatar</category>
+                <pubDate>Friday, 09 December 2022</pubDate>
             </item>
         </channel>
     </rss>
