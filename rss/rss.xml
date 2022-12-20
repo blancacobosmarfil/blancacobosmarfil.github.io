@@ -10,13 +10,13 @@
                 <url>https://github.com/blancacobosmarfil/blancacobosmarfil.github.io/blob/main/images/logotipo.png</url>
             </image>
             <language>es-es</language>
+            <item>
+                <title>Avatar</title>
+                <link>https://blancacobosmarfil.github.io/peliculas/avatar.html</link>
+                <description>En este artículo encontrará información sobre la película Avatar</description>
+                <author>Blanca Cobos Marfil 1º ASIR LMGSI</author>
+                <category>pelicula/avatar</category>
+                <pubDate>Friday, 09 December 2022</pubDate>
+            </item>
         </channel>
-        <item>
-            <title>Avatar</title>
-            <link>https://blancacobosmarfil.github.io/peliculas/avatar.html</link>
-            <description>En este artículo encontrará información sobre la película Avatar</description>
-            <author>Blanca Cobos Marfil 1º ASIR LMGSI</author>
-            <category>pelicula/avatar</category>
-            <pubDate>Friday, 09 December 2022</pubDate>
-        </item>
     </rss>
