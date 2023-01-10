@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <feed xml:lang="es" xml:base="https://blancacobosmarfil.github.io/">
+        <id>https://blancacobosmarfil.github.io/</id>
+        <title>Películas y series</title>
+        <updated>Friday, 09 December 2022</updated>
+        <link rel="alternate" href="https://blancacobosmarfil.github.io/atom/atom.xml"/>
+        <author>
+            <name>Blanca Cobos Marfil</name>
+            <email>comabl_aliesma20@iesmedinaazahara.es</email>
+        </author>
+        <category term="Películas y series"/>
+        <contributor>
+            <name>-</name>
+            <email>-</email>
+        </contributor>
+        <logo>logo.png</logo>
+        <entry>
+            <id>https://blancacobosmarfil.github.io/peliculas/avatar.html</id>
+            <title>Información sobre la película Avatar</title>
+            <updated>Friday, 09 December 2022</updated>
+            <author>
+                <name>Blanca Cobos Marfil</name>
+                <email>comabl_aliesma20@iesmedinaazahara.es</email>
+            </author>
+            <content>https://blancacobosmarfil.github.io/peliculas/avatar.html</content>
+            <sumary>En este artículo encontrarás información sobre la película Avatar</sumary>
+        </entry>
+    </feed>
