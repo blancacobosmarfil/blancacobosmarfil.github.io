@@ -10,8 +10,8 @@
         </author>
         <category term="Películas y series"/>
         <contributor>
-            <name>-</name>
-            <email>-</email>
+            <name>Autor</name>
+            <email>autor@gmail.com</email>
         </contributor>
         <logo>logo.png</logo>
         <entry>
@@ -24,5 +24,6 @@
             </author>
             <content>https://blancacobosmarfil.github.io/peliculas/avatar.html</content>
             <sumary>En este artículo encontrarás información sobre la película Avatar</sumary>
+            <link rel="alternate" href="https://blancacobosmarfil.github.io/peliculas/avatar.html"/>
         </entry>
     </feed>
