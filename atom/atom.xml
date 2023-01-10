@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <feed xml:lang="es" xml:base="https://blancacobosmarfil.github.io/">
+    <feed xmlns="http://www.w3.org/2005/Atom"
+          xml:lang="es"
+          xml:base="https://blancacobosmarfil.github.io/">
         <id>https://blancacobosmarfil.github.io/</id>
         <title>Películas y series</title>
         <updated>2023-01-10T13:14:02Z</updated>
