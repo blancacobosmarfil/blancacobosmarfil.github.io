@@ -32,6 +32,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -40,6 +41,9 @@ body {
   background-color: var(--crema-fondo);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
 }
 
 img {
@@ -677,12 +681,19 @@ h3 { font-size: 1.2rem; margin-bottom: 8px; }
     gap: 36px;
     padding: 40px;
     transform: translateX(100%);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, visibility 0.3s ease;
     box-shadow: -8px 0 24px rgba(61, 53, 48, 0.12);
+    visibility: hidden;
+    pointer-events: none;
+    touch-action: none;
+    overscroll-behavior: contain;
   }
 
   .main-nav.is-open {
     transform: translateX(0);
+    visibility: visible;
+    pointer-events: auto;
+    touch-action: auto;
   }
 
   .main-nav ul {
