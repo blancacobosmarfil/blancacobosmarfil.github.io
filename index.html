@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H2 HOMES</title>
+  <meta name="description" content="h2 homes inmobiliaria, agencia de confianza en Málaga capital. Compra, venta y alquiler de propiedades con atención personalizada en español, inglés y francés. Llámanos o pide tu cita hoy mismo.">
+
+  <!-- Favicon (sustituye por el tuyo) -->
+  <link rel="icon" type="image/png" href="img/logo-icon.svg">
+
+  <!-- Versiones de idioma disponibles (ayuda a Google a mostrar el idioma correcto) -->
+  <link rel="alternate" hreflang="es" href="https://h2homes.es/">
+  <link rel="alternate" hreflang="en" href="https://h2homes.es/en/">
+  <link rel="alternate" hreflang="x-default" href="https://h2homes.es/">
+
+  <!-- Preconnect a Google Fonts para carga rápida -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos propia -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Cloudflare Web Analytics (sin cookies) -->
+  <!-- Sustituye TOKEN por el que te proporciona Cloudflare al activar Web Analytics para este dominio -->
+  <!--
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "TOKEN"}'></script>
+  -->
+</head>
+<body>
+
+  <!-- ======================= HEADER ======================= -->
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <img src="img/logo-icon.svg" alt="h2 homes inmobiliaria" class="logo-img">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="main-nav" id="navMenu">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <div class="nav-extra">
+          <a href="/en/" class="lang-switch" lang="en" hreflang="en">EN</a>
+          <a href="tel:+34655528354" class="btn btn-primary nav-cta">Llamar ahora</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow">Inmobiliaria en Málaga</p>
+        <h1>Encuentra tu próximo hogar en Málaga capital</h1>
+        <p class="hero-subtitle">En h2 homes te ofrecemos un servicio personalizado, profesional y flexible para comprar, vender o alquilar tu propiedad, con el conocimiento experto del mercado malagueño que necesitas para decidir con seguridad.</p>
+        <div class="hero-actions">
+          <a href="tel:+34655528354" class="btn btn-primary btn-lg">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.6 10.8C8.1 13.8 10.2 15.9 13.2 17.4L15.4 15.2C15.7 14.9 16.1 14.8 16.5 14.9C17.7 15.3 19 15.5 20.3 15.5C20.9 15.5 21.3 15.9 21.3 16.5V20.3C21.3 20.9 20.9 21.3 20.3 21.3C10.6 21.3 2.7 13.4 2.7 3.7C2.7 3.1 3.1 2.7 3.7 2.7H7.5C8.1 2.7 8.5 3.1 8.5 3.7C8.5 5 8.7 6.3 9.1 7.5C9.2 7.9 9.1 8.3 8.8 8.6L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Llamar ahora
+          </a>
+          <a href="#contacto" class="btn btn-outline btn-lg">Pedir cita</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="img/fachada-oficina.jpg" alt="Fachada de la oficina de h2 homes inmobiliaria en Málaga" class="hero-photo">
+      </div>
+    </div>
+
+    <!-- Divisor en forma de tejado, eco visual del logo -->
+    <svg class="roof-divider" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <polyline points="0,60 200,15 400,45 600,5 800,45 1000,15 1200,60" fill="none" stroke="var(--beige-card)" stroke-width="3"/>
+      <polygon points="0,60 200,15 400,45 600,5 800,45 1000,15 1200,60 1200,60 0,60" fill="var(--crema-fondo)"/>
+    </svg>
+  </section>
+
+  <!-- ======================= SERVICIOS ======================= -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <p class="eyebrow center">Qué hacemos</p>
+      <h2 class="section-title center">Servicios pensados para cada etapa</h2>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 22L24 9L40 22" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 20V38H35V20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="20" y="27" width="8" height="11" stroke="currentColor" stroke-width="2.4"/></svg>
+          </div>
+          <h3>Venta de propiedades</h3>
+          <p>Tasación y evaluación de tu vivienda, fotos y vídeo profesionales, y marketing eficaz para llegar a nuestra red de inversores y a las principales plataformas.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6L8 17V42H40V17L24 6Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M19 42V27H29V42" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Alquiler de viviendas</h3>
+          <p>Encontramos el inquilino que mejor se adapta a tus condiciones, minimizando el riesgo de impagos, y redactamos los contratos con todas las garantías.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22" cy="20" r="13" stroke="currentColor" stroke-width="2.4"/><path d="M31.5 29.5L42 40" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Asesoramiento y negociación</h3>
+          <p>Te acompañamos desde la primera consulta hasta el cierre: negociación experta, asesoramiento en reformas y gestión de notaría y seguros.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="10" width="32" height="28" rx="2" stroke="currentColor" stroke-width="2.4"/><path d="M8 18H40" stroke="currentColor" stroke-width="2.4"/><path d="M16 6V14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M32 6V14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Gestión de trámites</h3>
+          <p>Nos encargamos del papeleo: contratos, custodia de llaves, desalojo de enseres y limpieza, para que tú solo te preocupes de mudarte.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4L31 18H17L24 4Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M10 44L17 18H31L38 44H10Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M16 44V34H32V44" stroke="currentColor" stroke-width="2.4"/></svg>
+          </div>
+          <h3>Certificados de eficiencia energética</h3>
+          <p>Gestionamos tu certificado de eficiencia energética (CEE), obligatorio para vender o alquilar, junto con la optimización de consumos de la vivienda.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.4"/><path d="M6 24H42" stroke="currentColor" stroke-width="2.4"/><path d="M24 6C29 11 31.5 17 31.5 24C31.5 31 29 37 24 42C19 37 16.5 31 16.5 24C16.5 17 19 11 24 6Z" stroke="currentColor" stroke-width="2.4"/></svg>
+          </div>
+          <h3>Atención en varios idiomas</h3>
+          <p>Te atendemos en español, inglés y francés, para acompañarte con la misma cercanía sea cual sea tu idioma.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SOBRE NOSOTROS ======================= -->
+  <section class="nosotros" id="nosotros">
+    <div class="container nosotros-inner">
+      <div class="nosotros-text">
+        <p class="eyebrow">Por qué elegirnos</p>
+        <h2 class="section-title">Tu agencia inmobiliaria de confianza en Málaga</h2>
+        <p>En h2 homes nos enorgullece ofrecer un servicio personalizado, profesional y flexible que se adapta a las necesidades de cada cliente. Sabemos lo importante que es elegir bien al agente que te acompaña al comprar, vender o alquilar, por eso nos comprometemos a entender tus objetivos y a trabajar para alcanzarlos. Nos avala nuestra seriedad y un numeroso grupo de clientes satisfechos que han compartido su experiencia positiva en Google.</p>
+
+        <ul class="checklist">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Trato cercano y personalizado, sin presiones
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Acompañamiento integral, desde la consulta hasta la firma
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Una de las agencias mejor valoradas en Google por sus clientes
+          </li>
+        </ul>
+      </div>
+
+      <div class="nosotros-media">
+        <img src="img/interior-oficina.jpg" alt="Interior de la oficina de h2 homes inmobiliaria en Málaga" class="nosotros-photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= UBICACIÓN Y CONTACTO ======================= -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <p class="eyebrow center">Hablemos</p>
+      <h2 class="section-title center">Visítanos o contacta con nosotros</h2>
+
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <div class="info-item">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 19 14.5 19 9.5C19 5.4 15.9 2 12 2C8.1 2 5 5.4 5 9.5C5 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.8"/></svg>
+            <div>
+              <h3>Dirección</h3>
+              <p>Calle Brahms, 6, Local 2, Málaga</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7V12L15.5 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <div>
+              <h3>Horario</h3>
+              <p>Lunes a Viernes<br>9:30 – 13:30 y 17:00 – 20:00</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8C8.1 13.8 10.2 15.9 13.2 17.4L15.4 15.2C15.7 14.9 16.1 14.8 16.5 14.9C17.7 15.3 19 15.5 20.3 15.5C20.9 15.5 21.3 15.9 21.3 16.5V20.3C21.3 20.9 20.9 21.3 20.3 21.3C10.6 21.3 2.7 13.4 2.7 3.7C2.7 3.1 3.1 2.7 3.7 2.7H7.5C8.1 2.7 8.5 3.1 8.5 3.7C8.5 5 8.7 6.3 9.1 7.5C9.2 7.9 9.1 8.3 8.8 8.6L6.6 10.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <h3>Teléfono / WhatsApp</h3>
+              <p><a href="tel:+34655528354">655 528 354</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 7L12 13L21 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:h2homesmalaga@gmail.com">h2homesmalaga@gmail.com</a></p>
+            </div>
+          </div>
+
+          <a href="tel:+34655528354" class="btn btn-primary btn-lg contacto-cta">Llamar ahora</a>
+        </div>
+
+        <div class="contacto-mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3061.7085435999707!2d-4.453652524477337!3d36.69438027365794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f98ae1746c35%3A0xc46badf5bbc977cc!2sInmobiliaria%20H2%20Homes%20Servicios%20Inmobiliarios!5e1!3m2!1ses!2ses!4v1782160679521!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="mapa-placeholder">
+            <p>Mapa de ubicación<br><span>(añade aquí el iframe de Google Maps)</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="img/logo-icon.svg" alt="h2 homes inmobiliaria" class="footer-logo">
+      </div>
+
+      <div class="footer-social">
+        <a href="[URL FACEBOOK]" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M16 8H14C12.9 8 12 8.9 12 10V12H10V15H12V21H15V15H17L18 12H15V10.5C15 10.2 15.2 10 15.5 10H18V7L16 8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="[URL INSTAGRAM]" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="[URL LINKEDIN]" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="8.5" r="1.2" fill="currentColor"/><path d="M8 11.5V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 17V13.5C12 12.4 12.8 11.5 14 11.5C15.2 11.5 16 12.4 16 13.5V17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">&copy; <span id="anio"></span> h2 homes inmobiliaria. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
